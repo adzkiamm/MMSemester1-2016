@@ -22,7 +22,7 @@
 		]]></manifestAdditions>
 	</android>
     <iPhone> 
-        <InfoAdditions><![CDATA[ 
+        <InfoAdditions><![CDATA[ s
 		
 			<key>UIStatusBarStyle</key> 
 			<string>UIStatusBarStyleBlackOpaque</string> 

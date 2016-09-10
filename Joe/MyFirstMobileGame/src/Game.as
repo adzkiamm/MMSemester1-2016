@@ -1,5 +1,6 @@
 package 
 {
+	import pages.PlayPage;
 	import starling.display.Sprite;
 	import starling.events.Event;
 	
@@ -9,6 +10,7 @@ package
 	 */
 	public class Game extends Sprite 
 	{
+		private var playPage:PlayPage;
 		
 		public function Game() 
 		{
@@ -19,6 +21,9 @@ package
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
 			trace("Starling Framework initialized!");
+			
+			playPage = new PlayPage();
+			this.addChild(playPage);
 		}
 	}
 
